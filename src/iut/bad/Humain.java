@@ -17,9 +17,9 @@ public class Humain {
 	private String prenom;
 	private int age;
 	
-	@Override
+	/*@Override
 	public String toString() {
 		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
-	}
+	}*/
 	
 }
