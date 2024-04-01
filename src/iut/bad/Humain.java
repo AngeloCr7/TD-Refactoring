@@ -6,8 +6,5 @@ public class Humain {
 	private String prenom;
 	private int age;
 	
-	public void details() {
-		System.out.println("nom : "+nom+ "Prenom : "+prenom+ "Age : "+age);
-	}	
 
 }
