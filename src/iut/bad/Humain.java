@@ -12,17 +12,17 @@ public class Humain {
 		System.out.println("nom : "+nom+ "Prenom : "+prenom+ "Age : "+age);
 	}
 	
-	public void ami(Humain humain) {
-		System.out.println(this.nom+" est ami avec : "+humain.nom);
+	public void ami(Humain humain, int duree) {
+		System.out.println(this.nom+" est ami avec : "+humain.nom +" pour une durée de : "+duree+" jours");
+	}
+	
+	@Override
+	public String toString() {
+		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
 	}
 	
 	private String nom;
 	private String prenom;
 	private int age;
-
-	@Override
-	public String toString() {
-		return "Humain [nom=" + nom + ", prenom=" + prenom + ", age=" + age + "]";
-	}
 	
 }
