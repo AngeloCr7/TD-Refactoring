@@ -8,6 +8,11 @@ public class Humain {
 		this.age = age;
 	}
 	
+	public void details() {
+		System.out.println("nom : "+nom+ "Prenom : "+prenom+ "Age : "+age);
+	}
+	
+	
 	private String nom;
 	private String prenom;
 	private int age;
