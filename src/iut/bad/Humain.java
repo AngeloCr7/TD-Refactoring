@@ -12,7 +12,14 @@ public class Humain {
 		System.out.println("nom : "+nom+ "Prenom : "+prenom+ "Age : "+age);
 	}
 	
+	public void boire() {
+		
+	}
 	
+	public void manger() {
+		
+		
+	}
 	private String nom;
 	private String prenom;
 	private int age;
