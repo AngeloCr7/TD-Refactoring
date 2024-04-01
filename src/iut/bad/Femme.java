@@ -6,12 +6,12 @@ public class Femme extends Humain {
 		super(nom,prenom,age);
 	}
 		
-	/*public static void main(String args[]) {
+	public static void main(String args[]) {
 	
 		Femme f = new Femme("Angela","Patricia",10);
 		Homme h = new Homme("Angelo","Patrick",12);
 		
 		f.ami(h);
 	
-	}*/
+	}
 }
