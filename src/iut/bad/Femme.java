@@ -9,6 +9,9 @@ public class Femme extends Humain {
 	/*public static void main(String args[]) {
 	
 		Femme f = new Femme("Angela","Patricia",10);
-		f.details();
+		Homme h = new Homme("Angelo","Patrick",12);
+		
+		f.ami(h);
+	
 	}*/
 }
